@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定Service" />
+
+    <Button
+        android:id="@+id/btn_call_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_bind_service"
+        android:text="调用play()方法" />
+
+    <Button
+        android:id="@+id/btn_call_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_call_play"
+        android:text="调用pause()方法" />
+
+    <Button
+        android:id="@+id/btn_call_get_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_call_pause"
+        android:text="调用getDuration()方法" />
+
+    <Button
+        android:id="@+id/btn_call_get_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_call_get_duration"
+        android:text="调用getMusic()方法" />
+
+</RelativeLayout>
